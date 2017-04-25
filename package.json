@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:js": "babel src/*/*.* -d lib/ && babel src/*.* -d lib/"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "react",
     "react-component",
